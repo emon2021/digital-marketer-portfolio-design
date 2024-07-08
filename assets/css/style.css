@@ -105,3 +105,8 @@ img{width: 100%;}
     text-align: justify;
 }
 /* special.services.end */
+
+/* resume */
+.ex_card_wrapper{background: #232424;}
+.ex_card_body h6{color:var(--main-color) !important; }
+/* resume.end */
