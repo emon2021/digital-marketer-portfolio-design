@@ -113,4 +113,7 @@ img{width: 100%;}
 #resume_ex::-webkit-scrollbar{width: 8px;}
 #resume_ex::-webkit-scrollbar-thumb{background: var(--main-color); border-radius: 10px; height: 50px;}
 #resume_ex::-webkit-scrollbar-track{background: var(--main-text-color); border-radius: 10px;}
+.experience,.education,.skills,.about_me{background-color: #232424; border:none;}
+.d_none{display: none;}
+.resume_active{background-color: var(--main-color) !important; color: var(--main-text-color);}
 /* resume.end */
