@@ -23,11 +23,19 @@ $(document).ready(function(){
     $("#testimonial-slider").owlCarousel({
         autoplay: 500,
         loop: true,
-        rewind:true,
         responsive:{
             0:{items:1},
             768:{items:2},
             992:{items:3}
+        }
+    });
+    $("#client_partner").owlCarousel({
+        autoplay: 500,
+        loop: true,
+        responsive:{
+            0:{items:1},
+            768:{items:3},
+            992:{items:5}
         }
     });
 
