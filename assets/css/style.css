@@ -116,4 +116,7 @@ img{width: 100%;}
 .experience,.education,.skills,.about_me{background-color: #232424; border:none;}
 .d_none{display: none;}
 .resume_active{background-color: var(--main-color) !important; color: var(--main-text-color);}
+.card-body.ex_card_body i {
+    font-size: 3rem;
+  }
 /* resume.end */
