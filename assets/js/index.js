@@ -21,7 +21,7 @@ $(document).ready(function(){
     //  testimonial.owl.carousel
 
     $("#testimonial-slider").owlCarousel({
-        autoplay: 500,
+        autoplay: 1000,
         loop: true,
         responsive:{
             0:{items:1},
@@ -32,6 +32,7 @@ $(document).ready(function(){
     $("#client_partner").owlCarousel({
         autoplay: 500,
         loop: true,
+        autoplayHoverPause:true,
         responsive:{
             0:{items:1},
             768:{items:3},

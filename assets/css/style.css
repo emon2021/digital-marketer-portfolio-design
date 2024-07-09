@@ -194,3 +194,10 @@ img{width: 100%;}
     padding: 6rem 0rem;
   }
 /* client.partner.end */
+
+/* article.blog */
+.blog_description, .card-footer{color:var(--main-text-color)}
+.card-footer{padding:1rem 1rem;}
+.blog_img { height: 40vh;}
+.card{cursor: pointer;}
+/* article.blog.end */
