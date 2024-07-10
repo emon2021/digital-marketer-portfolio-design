@@ -13,8 +13,9 @@
     .nav_items{display: none !important;}
     .logo{
         position: relative;
-        top: 18px;
+        top: 27px;
     }
+    .navbar{padding: 0px 0px}
     .social_media{
         display: flex;
         justify-content: space-evenly;
@@ -29,5 +30,18 @@
 
 @media(max-width: 992px)
 {
+    .nav_items{display: none !important;}
+    .off_canvas{
+        display: block !important;
+        float: right !important;
+        position: relative;
+        right: -90%;
+        top: -15px;
+    }
+    .logo{
+        position: relative;
+        top: 27px
+    }
+    .navbar{padding: 0px 0px}
     .blog_card{margin-bottom:1.6rem}
 }
