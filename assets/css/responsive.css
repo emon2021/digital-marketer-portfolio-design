@@ -23,7 +23,7 @@
     }
     .seo_consultency,.page_rangking{margin-top: 0 !important;}
     .service_box_3{border-top: none !important;}
-    
+    .common_title_style{width: 100%;}
 }
 
 
@@ -42,6 +42,11 @@
         position: relative;
         top: 27px
     }
+    .common_title_style{width: 100%;}
     .navbar{padding: 0px 0px}
     .blog_card{margin-bottom:1.6rem}
+}
+@media(max-width: 500px)
+{
+    #offcanvasRight{width: 17rem;}
 }

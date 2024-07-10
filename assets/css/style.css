@@ -37,7 +37,8 @@ body{font-family: var(--fira-sans);}
 }
 #offcanvasRightLabel{font-family: var(--fira-sans);}
 .offcanvas-body>ul>li>a{color: var(--main-text-color); font-family: var(--fira-sans);}
-
+.nav-link:hover{color: var(--main-color);}
+.nav-link{transition: 0.2s ease-in-out;}
 
 
 /* navbar.css.end */
