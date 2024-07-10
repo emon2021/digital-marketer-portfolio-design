@@ -1,5 +1,40 @@
 $(document).ready(function(){
 
+    //sticky navigation menu
+    let navbar = $('.navbar');
+    $(window).on('scroll', function() {
+        if ($(window).scrollTop() > 100) {
+            navbar.addClass('sticky_nav');
+        } else {
+            navbar.removeClass('sticky_nav');
+        }
+    });
+    
+// smooth scrolling using jquery
+    // Get the specific section on the page
+    let firstSection = $('#home');
+    // Scroll to the specific section
+
+    if (firstSection.length > 0) {
+        $('html, body').animate({
+            scrollTop: firstSection.offset().top
+        }, 'slow');
+    }
+
+    // Smooth scrolling using jquery;
+    $('a[href^="#"]').on('click', function (event) {
+        event.preventDefault();
+
+        var target = $(this.getAttribute('href'));
+
+        if (target.length) {
+            $('html, body').stop().animate({
+                scrollTop: target.offset().top
+            }, 'slow');
+        }
+    });
+// smooth scrolling using jquery.end
+
     //  resume.showing
     $('.common_resume').on('click', function (e) {
         e.preventDefault();

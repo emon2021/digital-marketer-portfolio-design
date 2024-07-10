@@ -39,7 +39,20 @@ body{font-family: var(--fira-sans);}
 .offcanvas-body>ul>li>a{color: var(--main-text-color); font-family: var(--fira-sans);}
 .nav-link:hover{color: var(--main-color);}
 .nav-link{transition: 0.2s ease-in-out;}
+.nav-link:focus{color: var(--main-color);}
 
+ /*======= sticky navbar=======*/
+ .sticky_nav {
+    background-color: var(--bg-color);
+    box-shadow: 1px 0px 10px 0px black;
+    top: 0;
+    width: 100%;
+    position: sticky;
+    z-index: 7;
+    top: 0;
+  }
+
+    /*======= /sticky navbar=======*/
 
 /* navbar.css.end */
 
