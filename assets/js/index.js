@@ -13,7 +13,7 @@ $(document).ready(function(){
 // smooth scrolling using jquery
     // Get the specific section on the page
     let firstSection = $('#home');
-    // Scroll to the specific section
+    // Scroll to the top section
 
     if (firstSection.length > 0) {
         $('html, body').animate({
